@@ -1,0 +1,370 @@
+.checkbtn {
+    color: #ffffff;
+    font-size: 40px;
+    margin-right: 20px;
+    padding: 4px 5px 1px 5px;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+
+
+@media (max-width:576px) {
+
+    /* FOR NAVBAR */
+    .navBar{
+        min-height:10vh;
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* background-color: aqua; */
+    }
+    .logo{
+        width: 15%;
+        margin-left: 10px;
+        padding:0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navLinks {
+        background-color:#eae6f5;
+        position: absolute;
+        top: 70px;
+        color:#190734;
+        flex-direction: column;
+        display: none;
+        height: 300px;
+        width: 100%;
+    }
+
+    .navLinks li{
+        background-color:#eae6f5;
+        padding:10px 0;
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color:#190734;
+    }
+
+    .navLinks li a{
+        color:#190734;
+    }
+
+    .navLinks li:hover{
+        background-color:#4b208c;
+    }
+
+    .navLinks li:hover a{
+        color:#eae6f5;
+    }
+
+    .checkbtn {
+        display: block;
+    }
+
+    #check:checked~.navLinks {
+        display: flex;
+    }
+    .heroContainer{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    .heroSection{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+    }
+    .heroLeft{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .heroLeft h1{
+        text-align: center;
+        width:100%;
+        padding:30px 60px;
+        margin:0;
+    }
+    .heroLeft p{
+        text-align: center;
+        padding:10px 20px;  
+    }
+    .heroLeft button{
+        width:50%;
+        padding:20px;
+    }
+    .heroRight{
+        /* background-color: red; */
+        width:100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .heroImage{
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        padding: 0 10px;
+        margin:20px;
+
+    }
+    .cardContainer{
+        width: 100%;
+        margin: 0;
+        padding: 30px  30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card{
+        width:100%;
+        padding:10px;
+    }
+    .card p{
+        text-align: center;
+        font-size: medium;
+    }
+    .cardContainer2{
+        width: 100%;
+        margin: 0;padding: 30px 30px;
+        margin-top: -15px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .card2{
+        width:100%;
+        padding:10px;
+        
+    }
+    .card2 p{
+        text-align: center;
+        font-size: medium;
+    }
+    .readmore{
+        margin:30px 0 60px;
+    }
+    .aboutContainer{
+        width:100%;
+        height: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .about{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .aboutLeft{
+        width:100%;
+        padding: 0 20px;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .aboutLeft h2{
+        text-align: center;
+        padding: 20px 0;
+        margin: 0;
+        flex-direction: column;
+    }
+    .aboutLeft p{
+        text-align: center;
+        padding-bottom:20px;
+        margin: 0;
+    }
+    .aboutLeft button{
+        margin-bottom: 20px;
+    }
+    .aboutRight{
+        width:100%;
+        /* background-color: red; */
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .bigImage{
+        width: 100%;
+        margin:0;
+        padding:0 10px;
+    }
+    .smallImage{
+        width: 100%;
+        margin: 10px 0;
+        padding: 0 20px;
+    }
+    .blogContainer{
+        width: 100%;
+        padding:0;
+        margin:0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .blog{
+        width: 100%;
+        padding: 20px 30px;
+        margin: 0 ;
+    }
+    .blogCard{
+        width: 100%;
+        padding: 0;
+        margin: 0 ;
+    }
+    .blogHeader{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .blogBody{
+        width: 100%;
+    }
+    .contactContainer{
+        width: 100%;
+        margin: 0;padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contact{
+        width: 100%;
+        margin: 0;padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .contactLeft{
+        width:80%;
+        margin: 0;
+        padding: 0;
+    }
+    .contactLeft h2{
+        width: 100%;
+        text-align: center;
+    }
+    #name, #email, #phone, #msg{
+        width:100%;
+        margin: 0;
+        padding: 0;
+    }
+    .contactLeft button{
+        width: 100%;
+        text-align: center;
+    }
+    .contactRight{
+        width:100%;
+        margin: 0;
+        padding: 20px;
+    }
+    .contactRight iframe{
+        width:100%;
+    }
+    .footerContainer{
+        width: 100%;
+        height:75vh;
+        padding: 0;
+        margin: 0;
+    }
+    .footer{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer1{
+        width: 75%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .footer1 p{
+        width: 100%;
+        padding:10px 0;
+        text-align: center;
+    }
+    .footer1 p i{
+        margin-right: 10px;
+    }
+    .footer2{
+        width:100%;
+        padding: 0;margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .subscription{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #emailBox{
+        width: 95%;
+        margin-bottom: 20px;
+    }
+    .icons{
+        width:100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* text-indent: 30px; */
+        padding-top: 30px;
+    }
+    .icons i{
+        margin-right: 10px;
+    }
+    #name{
+        width:100%;
+    }
+    #email{
+        width:100%;
+    }
+    #phone{
+        width:100%;
+    }
+
+}
